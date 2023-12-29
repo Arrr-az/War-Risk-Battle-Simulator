@@ -1,5 +1,5 @@
 # War-Risk-Battle-Simulator
-This program simulates an all-out battle in the Grow board game: "War", based on Hasbro's "Risk". Try out differente numbers of nTroopsATK and nTroopsDEF and see the chances of ATK winning a battle 'till the last troop. Raising the number of simulations/battles (nBattles) gives a more accurate win-rate, but 20.000 simulations will provide satisfying enough accuracy.
+This program simulates an all-out battle in the Grow board game: "War", based on Hasbro's "Risk". Try out differente numbers of nTroopsATK and nTroopsDEF on lines 100 and 101 and run the code to see the chances of ATK winning a battle 'till the last troop. Raising the number of simulations/battles (nBattles, line 102) gives a more accurate win-rate, but 20.000 simulations will provide satisfying enough accuracy.
 
 ### GAME CONTEXT
 Summarizing: in the game, multiple players populate a map, each one with a territory, the objective being to conquer territories that belong to other players, until a certain individual (and secret) landmark is reached.
