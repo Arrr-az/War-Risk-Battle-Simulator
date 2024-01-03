@@ -95,7 +95,7 @@ if __name__ == "__main__":
     
     ATKwins = 0
 
-    # Hyperparameters. Define your own number of troops for ATK/DEF
+    # Parameters. Define your own number of troops for ATK/DEF
     # as well as how many simulations (battles) will run
     nTroopsATK = 16
     nTroopsDEF = 10
