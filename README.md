@@ -24,4 +24,4 @@ Examples:
 - If a 1-ATK-troops territory attacks a 1-DEF-troop territory: it can't.
 
 ### TRIVIA
-The idea for this program came from a specific battle between me and [Dmantuan](https://github.com/Dmantuan) where he attacked my 10-DEF-troops territory with 16 troops (and LOST!). A brief discussion about how unlikely that was emerged, and I set to find out using Python, which revealed that, in fact, it was reasonably likely that his attack would fail.
+The idea for this program came from a specific battle between me and [Dmantuan](https://github.com/Dmantuan) where he attacked my 10-DEF-troops territory with 16 troops (and LOST!). A brief discussion about how unlikely that was emerged, and I set to find out using Python, which revealed that, in fact, it was slightly likely that his attack would fail.
