@@ -2,7 +2,7 @@
 This program simulates an all-out battle in the Grow board game: "War", based on Hasbro's "Risk". Try out different numbers of nTroopsATK and nTroopsDEF on lines 100 and 101 and run the code to see the chances of ATK winning a battle 'till the last troop. Raising the number of simulations/battles (nBattles, line 102) gives a more accurate win-rate, but 20.000 simulations will provide satisfying enough accuracy.
 
 ### GAME CONTEXT
-Summarizing: in the game, multiple players populate a map, each one with a territory, the objective being to conquer territories that belong to other players, until a certain individual (and secret) landmark is reached.
+Summarizing: in the game, multiple players populate a map, each one with a territory, the objective being to conquer territories that belong to other players, until a certain individual (and secret) goal is reached.
 
 ### BATTLE MECHANICS
 At any point in the game, each player will have some number of troops in a given territory, which can go from 1 to dozens of troops. If player 1 has territory A and wants to conquer territory B, that belongs to player 2, a battle will begin.
