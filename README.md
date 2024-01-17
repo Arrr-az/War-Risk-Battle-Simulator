@@ -9,12 +9,12 @@ At any point in the game, each player will have some number of troops in a given
 
 In a battle, each troop will be represented by a die. The attack will roll a number of ATK dices, and the defense will roll a number of DEF dices. Imagine 3 dice for each: largest ATK die gets compared with largest DEF die, 2nd largest ATK die with 2nd largest DEF die... etc. Then, for each compared pair, if the DEF die is larger or equal to the ATK die, a single ATK troop gets removed from the attacking territory. If DEF die is smaller, then ATK troop wins, and a single DEF troops gets removed from the deffending territory.
 
-If we consider only 2 battling territories, ATK wins (i.e. conquers the defending territory) if it manages to remove all defending troops. DEF wins if ATK troops are reduced to 1, which renders it unable to attack any further.
+If we consider only 2 battling territories, ATK wins (i.e., conquers the defending territory) if it manages to remove all defending troops. DEF wins if ATK troops are reduced to 1, which renders it unable to attack any further.
 
 Battle rules:
 - A maximum of 3 troops from ATK and DEF each can battle at the same time.
 - At least 1 ATK troop must stay in the territory, and is unable to battle.
-- If an unequal dice battle happens (i.e.: 2 dice x 3 dice), the dice in excess are ignored in the comparing stage. Which dice in the side with dice in excess are ignored? The smallest number(s).
+- If an unequal dice battle happens (e.g., 2 dice x 3 dice), the dice in excess are ignored in the comparing stage. Which dice in the side with dice in excess are ignored? The smallest number(s).
 
 Examples:
 - If a 9-ATK-troops territory attacks a 4-DEF-troops territory: it's a 3x3 dice battle;
